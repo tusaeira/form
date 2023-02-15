@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	background: url("IMGES/qqqqqiow.jpg") no-repeat fixed center center /cover;      
+}
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 11%;
+}
+
+.main-area {
+	background: rgba(10, 61, 98,0.5);
+	width: 1600px;
+	height: 775px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.main-area .login-area {
+	width: 450px;
+	background: rgba(44, 44, 84,0.6);
+	padding: 15px 20px;
+	border-radius: 6px;
+	text-align: center;
+	margin: auto;
+}
+
+.main-area .login-area input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.main-area .login-area input[type="text"], 
+.main-area .login-area input[type="password"] {
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #c2c4c9;
+}
+
+::placeholder {
+	color: #c2c4c9;
+}
+
+.main-area .login-area input[type="submit"] {
+	background: #ff7f50;
+	color: #FFFFFF;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: arial;
+	margin-bottom: 18px;
+}
+
+.main-area  .login-area input[type="text"]:focus,   
+.main-area  .login-area input[type="password"]:focus {
+	border: 1px solid #1877f2 ;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.main-area  .login-area .forgot-link:hover {
+	text-decoration: underline;
+	color: red;
+}
